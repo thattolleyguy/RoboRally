@@ -10,15 +10,15 @@ import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
 import java.util.concurrent.atomic.AtomicLong;
 
-@Path("/game")
+@Path("/hello")
 @Produces(MediaType.APPLICATION_JSON)
-public class GameResource
+public class GameOldResource
 {
 	private final String template;
 	private final String defaultName;
 	private final AtomicLong counter;
 
-	public GameResource(String template, String defaultName)
+	public GameOldResource(String template, String defaultName)
 	{
 		this.template = template;
 		this.defaultName = defaultName;

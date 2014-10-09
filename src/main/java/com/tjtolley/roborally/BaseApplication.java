@@ -4,6 +4,7 @@ import com.google.inject.AbstractModule;
 import com.google.inject.Guice;
 import com.google.inject.Injector;
 import com.tjtolley.roborally.game.GameManager;
+import com.tjtolley.roborally.resources.GameResource;
 import com.tjtolley.roborally.resources.LobbyResource;
 import io.dropwizard.Application;
 import io.dropwizard.setup.Bootstrap;
@@ -29,12 +30,14 @@ public class BaseApplication extends Application<WebConfig> {
     public void run(WebConfig configuration,
             Environment environment) {
         Injector injector = Guice.createInjector();
-        final GameResource resource = new GameResource(configuration.getTemplate(), configuration.getDefaultName());
+        final GameOldResource resource = new GameOldResource(configuration.getTemplate(), configuration.getDefaultName());
+		
         final LobbyResource lobby = injector.getInstance(LobbyResource.class);
         final TemplateHealthCheck healthCheck = new TemplateHealthCheck(configuration.getTemplate());
         environment.healthChecks().register("template", healthCheck);
         environment.jersey().register(resource);
         environment.jersey().register(lobby);
+		environment.jersey().register(injector.getInstance(GameResource.class));
     }
 
     private static class GuiceModule extends AbstractModule {
