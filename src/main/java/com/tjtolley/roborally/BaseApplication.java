@@ -1,8 +1,7 @@
 package com.tjtolley.roborally;
 
 import com.google.inject.AbstractModule;
-import com.google.inject.Guice;
-import com.google.inject.Injector;
+import com.hubspot.dropwizard.guice.GuiceBundle;
 import com.tjtolley.roborally.game.GameManager;
 import com.tjtolley.roborally.resources.GameResource;
 import com.tjtolley.roborally.resources.LobbyResource;
@@ -10,42 +9,47 @@ import io.dropwizard.Application;
 import io.dropwizard.setup.Bootstrap;
 import io.dropwizard.setup.Environment;
 
-public class BaseApplication extends Application<WebConfig> {
+public class BaseApplication extends Application<WebConfig>
+{
 
-    public static void main(String[] args) throws Exception {
-        new BaseApplication().run(args);
-    }
+	public static void main(String[] args) throws Exception
+	{
+		new BaseApplication().run(args);
+	}
 
-    @Override
-    public String getName() {
-        return "RoboRally";
-    }
+	@Override
+	public String getName()
+	{
+		return "RoboRally";
+	}
 
-    @Override
-    public void initialize(Bootstrap<WebConfig> bootstrap) {
-        // nothing to do yet
-    }
+	@Override
+	public void initialize(Bootstrap<WebConfig> bootstrap)
+	{
+		GuiceBundle<WebConfig> guiceBundle = GuiceBundle.<WebConfig>newBuilder()
+				.addModule(new GuiceModule())
+				.setConfigClass(WebConfig.class)
+				.build();
+		bootstrap.addBundle(guiceBundle);
+	}
 
-    @Override
-    public void run(WebConfig configuration,
-            Environment environment) {
-        Injector injector = Guice.createInjector();
-        final GameOldResource resource = new GameOldResource(configuration.getTemplate(), configuration.getDefaultName());
-		
-        final LobbyResource lobby = injector.getInstance(LobbyResource.class);
-        final TemplateHealthCheck healthCheck = new TemplateHealthCheck(configuration.getTemplate());
-        environment.healthChecks().register("template", healthCheck);
-        environment.jersey().register(resource);
-        environment.jersey().register(lobby);
-		environment.jersey().register(injector.getInstance(GameResource.class));
-    }
+	@Override
+	public void run(WebConfig configuration,
+					Environment environment)
+	{
+		final TemplateHealthCheck healthCheck = new TemplateHealthCheck(configuration.getTemplate());
+		environment.healthChecks().register("template", healthCheck);
+		environment.jersey().packages("com.tjtolley.roborally.resources");
+	}
 
-    private static class GuiceModule extends AbstractModule {
+	private static class GuiceModule extends AbstractModule
+	{
 
-        @Override
-        protected void configure() {
-            bind(GameManager.class).asEagerSingleton();
-        }
+		@Override
+		protected void configure()
+		{
+			bind(GameManager.class).asEagerSingleton();
+		}
 
-    }
+	}
 }

@@ -27,11 +27,11 @@ public class GameManager
 	{
 		return gameMap.values();
 	}
-	
+
 	public UUID createGame(String name)
 	{
 		UUID gameId = UUID.randomUUID();
-		gameMap.put(gameId, new Game(name, gameId));
+		gameMap.put(gameId, new Game(name, gameId, 12, 16));
 		return gameId;
 	}
 }

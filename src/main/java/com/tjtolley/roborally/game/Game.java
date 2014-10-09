@@ -16,11 +16,20 @@ public class Game
 {
 	private final String name;
 	private final UUID id;
+	private final Tile[][] board;
 
-	public Game(@JsonProperty("name") String name, @JsonProperty("id") UUID id)
+	public Game(@JsonProperty("name") String name, @JsonProperty("id") UUID id, int width, int height)
 	{
 		this.name = name;
 		this.id = id;
+		board = new Tile[height][width];
+		for (int x = 0; x < width; x++)
+		{
+			for (int y = 0; y < height; y++)
+			{
+				board[y][x] = new Tile(Tile.TileType.PLAIN, x, y);
+			}
+		}
 	}
 
 	public String getName()
@@ -32,5 +41,12 @@ public class Game
 	{
 		return id;
 	}
+
+	public Tile[][] getBoard()
+	{
+		return board;
+	}
+	
+	
 
 }
