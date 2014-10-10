@@ -45,11 +45,17 @@
 			<artifactId>commons-logging</artifactId>
 			<version>1.1.1</version>
 		</dependency>
-        <dependency>
-            <groupId>com.hubspot.dropwizard</groupId>
-            <artifactId>dropwizard-guice</artifactId>
-            <version>0.7.0.2</version>
-        </dependency>
+		<dependency>
+			<groupId>com.hubspot.dropwizard</groupId>
+			<artifactId>dropwizard-guice</artifactId>
+			<version>0.7.0.2</version>
+		</dependency>
+		<dependency>
+			<groupId>io.dropwizard</groupId>
+			<artifactId>dropwizard-assets</artifactId>
+			<version>0.7.1</version>
+		</dependency>
+
 	</dependencies>
 	<build>
 		<plugins>

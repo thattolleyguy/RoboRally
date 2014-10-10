@@ -3,11 +3,10 @@ package com.tjtolley.roborally;
 import com.google.inject.AbstractModule;
 import com.hubspot.dropwizard.guice.GuiceBundle;
 import com.tjtolley.roborally.game.GameManager;
-import com.tjtolley.roborally.resources.GameResource;
-import com.tjtolley.roborally.resources.LobbyResource;
 import io.dropwizard.Application;
 import io.dropwizard.setup.Bootstrap;
 import io.dropwizard.setup.Environment;
+import io.dropwizard.assets.AssetsBundle;
 
 public class BaseApplication extends Application<WebConfig>
 {
@@ -31,6 +30,7 @@ public class BaseApplication extends Application<WebConfig>
 				.setConfigClass(WebConfig.class)
 				.build();
 		bootstrap.addBundle(guiceBundle);
+		bootstrap.addBundle(new AssetsBundle("/assets","/RoboRally"));
 	}
 
 	@Override
