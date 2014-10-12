@@ -6,6 +6,7 @@
 package com.tjtolley.roborally.game;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import java.util.List;
 import java.util.UUID;
 
 /**
@@ -14,39 +15,31 @@ import java.util.UUID;
  */
 public class Game
 {
-	private final String name;
-	private final UUID id;
-	private final Tile[][] board;
 
-	public Game(@JsonProperty("name") String name, @JsonProperty("id") UUID id, int width, int height)
-	{
-		this.name = name;
-		this.id = id;
-		board = new Tile[height][width];
-		for (int x = 0; x < width; x++)
-		{
-			for (int y = 0; y < height; y++)
-			{
-				board[y][x] = new Tile(Tile.TileType.PLAIN, x, y);
-			}
-		}
-	}
+    private final String name;
+    private final UUID id;
+    private final BoardConfiguration configuration;
 
-	public String getName()
-	{
-		return name;
-	}
+    public Game(@JsonProperty("name") String name, @JsonProperty("id") UUID id, int width, int height)
+    {
+        this.name = name;
+        this.id = id;
+        configuration = BoardConfiguration.randomConfiguration(name, width, height);
+    }
 
-	public UUID getId()
-	{
-		return id;
-	}
+    public String getName()
+    {
+        return name;
+    }
 
-	public Tile[][] getBoard()
-	{
-		return board;
-	}
-	
-	
+    public UUID getId()
+    {
+        return id;
+    }
+
+    public List<List<Tile>> getBoard()
+    {
+        return configuration.getBoard();
+    }
 
 }

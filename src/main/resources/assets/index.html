@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
-<html>
+<html ng-app='roboRallyGame'>
 	<head>
-		<title>pixi.js example 1</title>
+		<title>Robo Rally</title>
 		<style>
 			body {
 				margin: 0;
@@ -9,35 +9,13 @@
 				background-color: #FFFFFF;
 			}
 		</style>
-		<script src="js/jquery-2.1.1.min.js"></script>
+		<script src="js/angular.min.js"></script>
+                <script src="js/angular-route.min.js"></script>
+                <script src="js/controllers.js"></script>
 		<script src="js/pixi.js"></script>
 	</head>
-	<body>
-		<script>
-			
-			var stage = new PIXI.Stage(0xFFFFFF);
-			var renderer = PIXI.autoDetectRenderer(400, 300);
+        <body>
+            <div ng-view></div>
 
-			document.body.appendChild(renderer.view);
-
-			requestAnimFrame(animate);
-
-			var texture = PIXI.Texture.fromImage("images/gear_cw.png");
-			var gear = new PIXI.Sprite(texture);
-
-			gear.anchor.x = 0.5;
-			gear.anchor.y = 0.5;
-			gear.position.x = 200;
-			gear.position.y = 150;
-
-			stage.addChild(gear);
-
-			function animate() {
-				requestAnimationFrame(animate);
-
-				gear.rotation += 6.28318;
-				renderer.render(stage);
-			}
-		</script>
     </body>
 </html>

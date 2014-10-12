@@ -1,0 +1,752 @@
+
+{
+    "name": "Spin Zone",
+    "width": 12,
+    "height": 12,
+    "board": [
+        [
+            {
+                "tileType": "PLAIN",
+                "x": 0,
+                "y": 0
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 0,
+                "y": 1
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 0,
+                "y": 2
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 0,
+                "y": 3
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 0,
+                "y": 4
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 0,
+                "y": 5
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 0,
+                "y": 6
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 0,
+                "y": 7
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 0,
+                "y": 8
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 0,
+                "y": 9
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 0,
+                "y": 10
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 0,
+                "y": 11
+            }
+        ],
+        [
+            {
+                "tileType": "PLAIN",
+                "x": 1,
+                "y": 0
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE",
+                "x": 1,
+                "y": 1
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE",
+                "x": 1,
+                "y": 2
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE",
+                "x": 1,
+                "y": 3
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE",
+                "x": 1,
+                "y": 4
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 1,
+                "y": 5
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 1,
+                "y": 6
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE",
+                "x": 1,
+                "y": 7
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE",
+                "x": 1,
+                "y": 8
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE",
+                "x": 1,
+                "y": 9
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE",
+                "x": 1,
+                "y": 10
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 1,
+                "y": 11
+            }
+        ],
+        [
+            {
+                "tileType": "PLAIN",
+                "x": 2,
+                "y": 0
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 2,
+                "y": 1
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 2,
+                "y": 2
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 2,
+                "y": 3
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 2,
+                "y": 4
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 2,
+                "y": 5
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 2,
+                "y": 6
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 2,
+                "y": 7
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 2,
+                "y": 8
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 2,
+                "y": 9
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 2,
+                "y": 10
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 2,
+                "y": 11
+            }
+        ],
+        [
+            {
+                "tileType": "PLAIN",
+                "x": 3,
+                "y": 0
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 3,
+                "y": 1
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 3,
+                "y": 2
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 3,
+                "y": 3
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 3,
+                "y": 4
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 3,
+                "y": 5
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 3,
+                "y": 6
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 3,
+                "y": 7
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 3,
+                "y": 8
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 3,
+                "y": 9
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 3,
+                "y": 10
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 3,
+                "y": 11
+            }
+        ],
+        [
+            {
+                "tileType": "PLAIN",
+                "x": 4,
+                "y": 0
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 4,
+                "y": 1
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 4,
+                "y": 2
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 4,
+                "y": 3
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 4,
+                "y": 4
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 4,
+                "y": 5
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 4,
+                "y": 6
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 4,
+                "y": 7
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 4,
+                "y": 8
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 4,
+                "y": 9
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 4,
+                "y": 10
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 4,
+                "y": 11
+            }
+        ],
+        [
+            {
+                "tileType": "PLAIN",
+                "x": 5,
+                "y": 0
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 5,
+                "y": 1
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 5,
+                "y": 2
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 5,
+                "y": 3
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 5,
+                "y": 4
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 5,
+                "y": 5
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 5,
+                "y": 6
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 5,
+                "y": 7
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 5,
+                "y": 8
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 5,
+                "y": 9
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 5,
+                "y": 10
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 5,
+                "y": 11
+            }
+        ],
+        [
+            {
+                "tileType": "PLAIN",
+                "x": 6,
+                "y": 0
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 6,
+                "y": 1
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 6,
+                "y": 2
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 6,
+                "y": 3
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 6,
+                "y": 4
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 6,
+                "y": 5
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 6,
+                "y": 6
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 6,
+                "y": 7
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 6,
+                "y": 8
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 6,
+                "y": 9
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 6,
+                "y": 10
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 6,
+                "y": 11
+            }
+        ],
+        [
+            {
+                "tileType": "PLAIN",
+                "x": 7,
+                "y": 0
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 7,
+                "y": 1
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 7,
+                "y": 2
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 7,
+                "y": 3
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 7,
+                "y": 4
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 7,
+                "y": 5
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 7,
+                "y": 6
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 7,
+                "y": 7
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 7,
+                "y": 8
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 7,
+                "y": 9
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 7,
+                "y": 10
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 7,
+                "y": 11
+            }
+        ],
+        [
+            {
+                "tileType": "PLAIN",
+                "x": 8,
+                "y": 0
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 8,
+                "y": 1
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 8,
+                "y": 2
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 8,
+                "y": 3
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 8,
+                "y": 4
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 8,
+                "y": 5
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 8,
+                "y": 6
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 8,
+                "y": 7
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 8,
+                "y": 8
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 8,
+                "y": 9
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 8,
+                "y": 10
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 8,
+                "y": 11
+            }
+        ],
+        [
+            {
+                "tileType": "PLAIN",
+                "x": 9,
+                "y": 0
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 9,
+                "y": 1
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 9,
+                "y": 2
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 9,
+                "y": 3
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 9,
+                "y": 4
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 9,
+                "y": 5
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 9,
+                "y": 6
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 9,
+                "y": 7
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 9,
+                "y": 8
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 9,
+                "y": 9
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 9,
+                "y": 10
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 9,
+                "y": 11
+            }
+        ],
+        [
+            {
+                "tileType": "PLAIN",
+                "x": 10,
+                "y": 0
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 10,
+                "y": 1
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 10,
+                "y": 2
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 10,
+                "y": 3
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 10,
+                "y": 4
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 10,
+                "y": 5
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 10,
+                "y": 6
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 10,
+                "y": 7
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 10,
+                "y": 8
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 10,
+                "y": 9
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 10,
+                "y": 10
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 10,
+                "y": 11
+            }
+        ],
+        [
+            {
+                "tileType": "PLAIN",
+                "x": 11,
+                "y": 0
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 11,
+                "y": 1
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 11,
+                "y": 2
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 11,
+                "y": 3
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 11,
+                "y": 4
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 11,
+                "y": 5
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 11,
+                "y": 6
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 11,
+                "y": 7
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 11,
+                "y": 8
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 11,
+                "y": 9
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 11,
+                "y": 10
+            },
+            {
+                "tileType": "PLAIN",
+                "x": 11,
+                "y": 11
+            }
+        ]
+    ]
+}
