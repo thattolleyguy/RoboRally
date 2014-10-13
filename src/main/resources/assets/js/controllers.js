@@ -34,11 +34,24 @@ function GameCtrl($scope, $http, $routeParams)
         {
             value.forEach(function(tile) {
 
-                var sprite = new PIXI.Sprite(PIXI.Texture.fromImage("images/"+tile.tileType+".png"));
-                sprite.anchor.x = 0;
-                sprite.anchor.y = 0;
-                sprite.position.x = tile.x * 150;
-                sprite.position.y = tile.y * 150;
+                var sprite = new PIXI.Sprite(PIXI.Texture.fromImage("images/" + tile.tileType + ".png"));
+                sprite.anchor.x = 0.5;
+                sprite.anchor.y = 0.5;
+                switch (tile.rotation)
+                {
+                    case 'NORTH':
+                        sprite.rotation = Math.PI / 2;
+                        break;
+                    case 'SOUTH':
+                        sprite.rotation = 3 * Math.PI / 2;
+                        break;
+                    case 'WEST':
+                        sprite.rotation = Math.PI;
+                        break;
+
+                }
+                sprite.position.x = (tile.y * 150) + 75;
+                sprite.position.y = (tile.x * 150) + 75;
                 board.addChild(sprite)
             })
         })

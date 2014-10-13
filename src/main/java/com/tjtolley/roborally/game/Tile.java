@@ -11,13 +11,13 @@ public class Tile
     private final int x;
     private final int y;
 
-    public Tile(TileType tileType, int x, int y)
+    public Tile(TileType tileType, int x, int y, Direction rotation)
     {
         this.edges = Maps.newEnumMap(Direction.class);
         this.tileType = tileType;
         this.x = x;
         this.y = y;
-        this.rotation = Direction.NORTH;
+        this.rotation = rotation;
     }
 
     public TileType getTileType()
@@ -33,6 +33,11 @@ public class Tile
     public int getY()
     {
         return y;
+    }
+
+    public Direction getRotation()
+    {
+        return rotation;
     }
 
     public static enum TileType
@@ -73,7 +78,8 @@ public class Tile
         NORTH,
         EAST,
         SOUTH,
-        WEST
+        WEST;
+
     }
 
 }

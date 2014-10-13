@@ -8,6 +8,7 @@ package com.tjtolley.roborally.game;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.common.collect.Lists;
+import com.tjtolley.roborally.game.Tile.Direction;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -40,12 +41,14 @@ public class BoardConfiguration
         Random r = new Random();
         List<List<Tile>> board = Lists.newArrayList();
         Tile.TileType[] values = Tile.TileType.values();
+        final Direction[] dirValues = Direction.values();
         for (int x = 0; x < width; x++) {
             final ArrayList<Tile> column = Lists.<Tile>newArrayList();
             board.add(x, column);
             for (int y = 0; y < height; y++) {
-                int idx = r.nextInt(values.length);
-                column.add(y, new Tile(values[idx], x, y));
+                int valIdx = r.nextInt(values.length);
+                int dirIdx = r.nextInt(dirValues.length);
+                column.add(y, new Tile(values[valIdx], x, y, dirValues[dirIdx]));
             }
         }
         return new BoardConfiguration(name, board, width, height);
@@ -67,7 +70,8 @@ public class BoardConfiguration
                 final int x = (int) tileMap.get("x");
                 List<Tile> column = board.get(x);
                 final int y = (int) tileMap.get("y");
-                column.add(y, new Tile(Tile.TileType.valueOf((String) tileMap.get("tileType")), x, y));
+                final Direction direction = tileMap.containsKey("rotation") ? Direction.valueOf((String) tileMap.get("rotation")) : Direction.EAST;
+                column.add(y, new Tile(Tile.TileType.valueOf((String) tileMap.get("tileType")), x, y, direction));
             }
         }
         return new BoardConfiguration((String) readValue.get("name"), board, width, height);

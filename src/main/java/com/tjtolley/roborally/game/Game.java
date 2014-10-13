@@ -6,6 +6,7 @@
 package com.tjtolley.roborally.game;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import java.io.IOException;
 import java.util.List;
 import java.util.UUID;
 
@@ -20,11 +21,12 @@ public class Game
     private final UUID id;
     private final BoardConfiguration configuration;
 
-    public Game(@JsonProperty("name") String name, @JsonProperty("id") UUID id, int width, int height)
+    public Game(@JsonProperty("name") String name, @JsonProperty("id") UUID id, int width, int height) throws IOException
     {
         this.name = name;
         this.id = id;
-        configuration = BoardConfiguration.randomConfiguration(name, width, height);
+//        configuration = BoardConfiguration.randomConfiguration(name, width, height);
+        configuration = BoardConfiguration.fromPredefinedBoard(BoardConfiguration.PredefinedBoard.SPINZONE);
     }
 
     public String getName()

@@ -6,9 +6,12 @@
 package com.tjtolley.roborally.game;
 
 import com.google.common.collect.Maps;
+import java.io.IOException;
 import java.util.Collection;
 import java.util.Map;
 import java.util.UUID;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  *
@@ -16,22 +19,27 @@ import java.util.UUID;
  */
 public class GameManager
 {
-	private Map<UUID, Game> gameMap = Maps.newHashMap();
+    private Map<UUID, Game> gameMap = Maps.newHashMap();
 
-	public Game getGame(UUID id)
-	{
-		return gameMap.get(id);
-	}
+    public Game getGame(UUID id)
+    {
+        return gameMap.get(id);
+    }
 
-	public Collection<Game> getGames()
-	{
-		return gameMap.values();
-	}
+    public Collection<Game> getGames()
+    {
+        return gameMap.values();
+    }
 
-	public UUID createGame(String name)
-	{
-		UUID gameId = UUID.randomUUID();
-		gameMap.put(gameId, new Game(name, gameId, 12, 16));
-		return gameId;
-	}
+    public UUID createGame(String name)
+    {
+        UUID gameId = UUID.randomUUID();
+        try {
+            gameMap.put(gameId, new Game(name, gameId, 12, 16));
+        }
+        catch (IOException ex) {
+            Logger.getLogger(GameManager.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        return gameId;
+    }
 }

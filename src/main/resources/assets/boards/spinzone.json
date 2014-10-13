@@ -6,744 +6,780 @@
     "board": [
         [
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 0,
                 "y": 0
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 0,
                 "y": 1
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 0,
                 "y": 2
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 0,
                 "y": 3
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 0,
                 "y": 4
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 0,
                 "y": 5
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 0,
                 "y": 6
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 0,
                 "y": 7
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 0,
                 "y": 8
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 0,
                 "y": 9
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 0,
                 "y": 10
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 0,
                 "y": 11
             }
         ],
         [
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 1,
                 "y": 0
             },
             {
-                "tileType": "CONVEYOR_DOUBLE",
+                "tileType": "CONVEYOR_DOUBLE_CW_CURVE",
                 "x": 1,
-                "y": 1
+                "y": 1,
+                "rotation": "SOUTH"
             },
             {
-                "tileType": "CONVEYOR_DOUBLE",
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
                 "x": 1,
-                "y": 2
+                "y": 2,
+                "rotation": "SOUTH"
             },
             {
-                "tileType": "CONVEYOR_DOUBLE",
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
                 "x": 1,
-                "y": 3
+                "y": 3,
+                "rotation": "SOUTH"
             },
             {
-                "tileType": "CONVEYOR_DOUBLE",
+                "tileType": "CONVEYOR_DOUBLE_CW_CURVE",
                 "x": 1,
                 "y": 4
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 1,
                 "y": 5
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 1,
                 "y": 6
             },
             {
-                "tileType": "CONVEYOR_DOUBLE",
+                "tileType": "CONVEYOR_DOUBLE_CW_CURVE",
                 "x": 1,
-                "y": 7
+                "y": 7,
+                "rotation": "SOUTH"
             },
             {
-                "tileType": "CONVEYOR_DOUBLE",
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
                 "x": 1,
-                "y": 8
+                "y": 8,
+                "rotation": "SOUTH"
             },
             {
-                "tileType": "CONVEYOR_DOUBLE",
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
                 "x": 1,
-                "y": 9
+                "y": 9,
+                "rotation": "SOUTH"
             },
             {
-                "tileType": "CONVEYOR_DOUBLE",
+                "tileType": "CONVEYOR_DOUBLE_CW_CURVE",
                 "x": 1,
                 "y": 10
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 1,
                 "y": 11
             }
         ],
         [
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 2,
                 "y": 0
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
                 "x": 2,
-                "y": 1
+                "y": 1,
+                "rotation": "WEST"
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "GEAR_CW",
                 "x": 2,
                 "y": 2
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 2,
                 "y": 3
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
                 "x": 2,
                 "y": 4
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "GEAR_CCW",
                 "x": 2,
                 "y": 5
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 2,
                 "y": 6
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
                 "x": 2,
-                "y": 7
+                "y": 7,
+                "rotation": "WEST"
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "GEAR_CW",
                 "x": 2,
                 "y": 8
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 2,
                 "y": 9
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
                 "x": 2,
                 "y": 10
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 2,
                 "y": 11
             }
         ],
         [
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 3,
                 "y": 0
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
                 "x": 3,
-                "y": 1
+                "y": 1,
+                "rotation": "WEST"
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "WRENCH",
                 "x": 3,
                 "y": 2
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "GEAR_CW",
                 "x": 3,
                 "y": 3
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
                 "x": 3,
                 "y": 4
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 3,
                 "y": 5
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 3,
                 "y": 6
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
                 "x": 3,
-                "y": 7
+                "y": 7,
+                "rotation": "WEST"
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "WRENCH_AND_HAMMER",
                 "x": 3,
                 "y": 8
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "GEAR_CW",
                 "x": 3,
                 "y": 9
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
                 "x": 3,
                 "y": 10
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 3,
                 "y": 11
             }
         ],
         [
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 4,
                 "y": 0
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "CONVEYOR_DOUBLE_CW_CURVE",
                 "x": 4,
-                "y": 1
+                "y": 1,
+                "rotation": "WEST"
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
                 "x": 4,
-                "y": 2
+                "y": 2,
+                "rotation": "NORTH"
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
                 "x": 4,
-                "y": 3
+                "y": 3,
+                "rotation": "NORTH"
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "CONVEYOR_DOUBLE_CW_CURVE",
                 "x": 4,
-                "y": 4
+                "y": 4,
+                "rotation": "NORTH"
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 4,
                 "y": 5
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "GEAR_CCW",
                 "x": 4,
                 "y": 6
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "CONVEYOR_DOUBLE_CW_CURVE",
                 "x": 4,
-                "y": 7
+                "y": 7,
+                "rotation": "WEST"
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
                 "x": 4,
-                "y": 8
+                "y": 8,
+                "rotation": "NORTH"
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
                 "x": 4,
-                "y": 9
+                "y": 9,
+                "rotation": "NORTH"
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "CONVEYOR_DOUBLE_CW_CURVE",
                 "x": 4,
-                "y": 10
+                "y": 10,
+                "rotation": "NORTH"
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 4,
                 "y": 11
             }
         ],
         [
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 5,
                 "y": 0
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 5,
                 "y": 1
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 5,
                 "y": 2
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 5,
                 "y": 3
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "GEAR_CCW",
                 "x": 5,
                 "y": 4
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 5,
                 "y": 5
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 5,
                 "y": 6
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 5,
                 "y": 7
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 5,
                 "y": 8
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "GEAR_CCW",
                 "x": 5,
                 "y": 9
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 5,
                 "y": 10
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 5,
                 "y": 11
             }
         ],
         [
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 6,
                 "y": 0
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 6,
                 "y": 1
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "GEAR_CCW",
                 "x": 6,
                 "y": 2
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 6,
                 "y": 3
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 6,
                 "y": 4
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 6,
                 "y": 5
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 6,
                 "y": 6
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "GEAR_CCW",
                 "x": 6,
                 "y": 7
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 6,
                 "y": 8
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 6,
                 "y": 9
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 6,
                 "y": 10
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 6,
                 "y": 11
             }
         ],
         [
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 7,
                 "y": 0
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "CONVEYOR_DOUBLE_CW_CURVE",
                 "x": 7,
-                "y": 1
+                "y": 1,
+                "rotation": "SOUTH"
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
                 "x": 7,
-                "y": 2
+                "y": 2,
+                "rotation": "SOUTH"
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
                 "x": 7,
-                "y": 3
+                "y": 3,
+                "rotation": "SOUTH"
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "CONVEYOR_DOUBLE_CW_CURVE",
                 "x": 7,
                 "y": 4
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "GEAR_CCW",
                 "x": 7,
                 "y": 5
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 7,
                 "y": 6
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "CONVEYOR_DOUBLE_CW_CURVE",
                 "x": 7,
-                "y": 7
+                "y": 7,
+                "rotation": "SOUTH"
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
                 "x": 7,
-                "y": 8
+                "y": 8,
+                "rotation": "SOUTH"
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
                 "x": 7,
-                "y": 9
+                "y": 9,
+                "rotation": "SOUTH"
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "CONVEYOR_DOUBLE_CW_CURVE",
                 "x": 7,
                 "y": 10
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 7,
                 "y": 11
             }
         ],
         [
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 8,
                 "y": 0
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
                 "x": 8,
-                "y": 1
+                "y": 1,
+                "rotation": "WEST"
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "GEAR_CW",
                 "x": 8,
                 "y": 2
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "WRENCH_AND_HAMMER",
                 "x": 8,
                 "y": 3
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
                 "x": 8,
                 "y": 4
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 8,
                 "y": 5
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 8,
                 "y": 6
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
                 "x": 8,
-                "y": 7
+                "y": 7,
+                "rotation": "WEST"
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "GEAR_CW",
                 "x": 8,
                 "y": 8
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "WRENCH",
                 "x": 8,
                 "y": 9
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
                 "x": 8,
                 "y": 10
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 8,
                 "y": 11
             }
         ],
         [
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 9,
                 "y": 0
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
                 "x": 9,
-                "y": 1
+                "y": 1,
+                "rotation": "WEST"
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 9,
                 "y": 2
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "GEAR_CW",
                 "x": 9,
                 "y": 3
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
                 "x": 9,
                 "y": 4
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 9,
                 "y": 5
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "GEAR_CCW",
                 "x": 9,
                 "y": 6
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
                 "x": 9,
-                "y": 7
+                "y": 7,
+                "rotation": "WEST"
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 9,
                 "y": 8
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "GEAR_CW",
                 "x": 9,
                 "y": 9
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
                 "x": 9,
                 "y": 10
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 9,
                 "y": 11
             }
         ],
         [
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 10,
                 "y": 0
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "CONVEYOR_DOUBLE_CW_CURVE",
                 "x": 10,
-                "y": 1
+                "y": 1,
+                "rotation": "WEST"
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
                 "x": 10,
-                "y": 2
+                "y": 2,
+                "rotation": "NORTH"
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
                 "x": 10,
-                "y": 3
+                "y": 3,
+                "rotation": "NORTH"
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "CONVEYOR_DOUBLE_CW_CURVE",
                 "x": 10,
-                "y": 4
+                "y": 4,
+                "rotation": "NORTH"
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 10,
                 "y": 5
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 10,
                 "y": 6
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "CONVEYOR_DOUBLE_CW_CURVE",
                 "x": 10,
-                "y": 7
+                "y": 7,
+                "rotation": "WEST"
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
                 "x": 10,
-                "y": 8
+                "y": 8,
+                "rotation": "NORTH"
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
                 "x": 10,
-                "y": 9
+                "y": 9,
+                "rotation": "NORTH"
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "CONVEYOR_DOUBLE_CW_CURVE",
                 "x": 10,
-                "y": 10
+                "y": 10,
+                "rotation": "NORTH"
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 10,
                 "y": 11
             }
         ],
         [
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 11,
                 "y": 0
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 11,
                 "y": 1
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 11,
                 "y": 2
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 11,
                 "y": 3
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 11,
                 "y": 4
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 11,
                 "y": 5
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 11,
                 "y": 6
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 11,
                 "y": 7
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 11,
                 "y": 8
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 11,
                 "y": 9
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 11,
                 "y": 10
             },
             {
-                "tileType": "PLAIN",
+                "tileType": "EMPTY",
                 "x": 11,
                 "y": 11
             }
