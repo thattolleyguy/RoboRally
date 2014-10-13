@@ -1,0 +1,280 @@
+
+{
+	"name": "Docking Bay",
+	"width": 12,
+	"height": 4,
+	"board": [
+		[
+			{
+				"tileType": "EMPTY",
+				"y": 0,
+				"x": 0
+			},
+			{
+				"tileType": "EMPTY",
+				"y": 0,
+				"x": 1
+			},
+			{
+				"tileType": "EMPTY",
+				"y": 0,
+				"x": 2,
+				"northEdge": "WALL"
+			},
+			{
+				"tileType": "EMPTY",
+				"y": 0,
+				"x": 3
+			},
+			{
+				"tileType": "EMPTY",
+				"y": 0,
+				"x": 4,
+				"northEdge": "WALL",
+				"westEdge": "WALL"
+			},
+			{
+				"tileType": "EMPTY",
+				"y": 0,
+				"x": 5
+			},
+			{
+				"tileType": "EMPTY",
+				"y": 0,
+				"x": 6
+			},
+			{
+				"tileType": "EMPTY",
+				"y": 0,
+				"x": 7,
+				"northEdge": "WALL",
+				"eastEdge": "WALL"
+			},
+			{
+				"tileType": "EMPTY",
+				"y": 0,
+				"x": 8
+			},
+			{
+				"tileType": "EMPTY",
+				"y": 0,
+				"x": 9,
+				"northEdge": "WALL"
+			},
+			{
+				"tileType": "EMPTY",
+				"y": 0,
+				"x": 10
+			},
+			{
+				"tileType": "EMPTY",
+				"y": 0,
+				"x": 11
+			}
+		],
+		[
+			{
+				"tileType": "EMPTY",
+				"y": 1,
+				"x": 0
+			},
+			{
+				"tileType": "EMPTY",
+				"y": 1,
+				"x": 1,
+				"westEdge": "WALL"
+			},
+			{
+				"tileType": "EMPTY",
+				"y": 1,
+				"x": 2,
+				"westEdge": "WALL"
+			},
+			{
+				"tileType": "EMPTY",
+				"y": 1,
+				"x": 3
+			},
+			{
+				"tileType": "EMPTY",
+				"y": 1,
+				"x": 4
+			},
+			{
+				"tileType": "EMPTY",
+				"y": 1,
+				"x": 5
+			},
+			{
+				"tileType": "EMPTY",
+				"y": 1,
+				"x": 6
+			},
+			{
+				"tileType": "EMPTY",
+				"y": 1,
+				"x": 7
+			},
+			{
+				"tileType": "EMPTY",
+				"y": 1,
+				"x": 8
+			},
+			{
+				"tileType": "EMPTY",
+				"y": 1,
+				"x": 9,
+				"eastEdge": "WALL"
+			},
+			{
+				"tileType": "EMPTY",
+				"y": 1,
+				"x": 10,
+				"eastEdge": "WALL"
+			},
+			{
+				"tileType": "EMPTY",
+				"y": 1,
+				"x": 11
+			}
+		],
+		[
+			{
+				"tileType": "CONVEYOR_SINGLE_STRAIGHT",
+				"y": 2,
+				"x": 0,
+				"rotation": "EAST"
+			},
+			{
+				"tileType": "CONVEYOR_SINGLE_STRAIGHT",
+				"y": 2,
+				"x": 1,
+				"rotation": "EAST"
+			},
+			{
+				"tileType": "CONVEYOR_SINGLE_CW_CURVE",
+				"y": 2,
+				"x": 2,
+				"rotation": "SOUTH"
+			},
+			{
+				"tileType": "EMPTY",
+				"y": 2,
+				"x": 3
+			},
+			{
+				"tileType": "EMPTY",
+				"y": 2,
+				"x": 4
+			},
+			{
+				"tileType": "EMPTY",
+				"y": 2,
+				"x": 5
+			},
+			{
+				"tileType": "EMPTY",
+				"y": 2,
+				"x": 6,
+				"westEdge": "WALL"
+			},
+			{
+				"tileType": "EMPTY",
+				"y": 2,
+				"x": 7
+			},
+			{
+				"tileType": "EMPTY",
+				"y": 2,
+				"x": 8
+			},
+			{
+				"tileType": "CONVEYOR_SINGLE_CCW_CURVE",
+				"y": 2,
+				"x": 9,
+				"rotation": "SOUTH"
+			},
+			{
+				"tileType": "CONVEYOR_SINGLE_STRAIGHT",
+				"y": 2,
+				"x": 10,
+				"rotation": "WEST"
+			},
+			{
+				"tileType": "CONVEYOR_SINGLE_STRAIGHT",
+				"y": 2,
+				"x": 11,
+				"rotation": "WEST"
+			}
+		],
+		[
+			{
+				"tileType": "EMPTY",
+				"y": 3,
+				"x": 0
+			},
+			{
+				"tileType": "EMPTY",
+				"y": 3,
+				"x": 1
+			},
+			{
+				"tileType": "CONVEYOR_SINGLE_CCW_CURVE",
+				"y": 3,
+				"x": 2,
+				"rotation": "EAST"
+			},
+			{
+				"tileType": "CONVEYOR_SINGLE_STRAIGHT",
+				"y": 3,
+				"x": 3,
+				"rotation": "EAST"
+			},
+			{
+				"tileType": "CONVEYOR_SINGLE_STRAIGHT",
+				"y": 3,
+				"x": 4,
+				"rotation": "EAST"
+			},
+			{
+				"tileType": "EMPTY",
+				"y": 3,
+				"x": 5
+			},
+			{
+				"tileType": "EMPTY",
+				"y": 3,
+				"x": 6,
+				"westEdge": "WALL"
+			},
+			{
+				"tileType": "CONVEYOR_SINGLE_STRAIGHT",
+				"y": 3,
+				"x": 7,
+				"rotation": "WEST"
+			},
+			{
+				"tileType": "CONVEYOR_SINGLE_STRAIGHT",
+				"y": 3,
+				"x": 8,
+				"rotation": "WEST"
+			},
+			{
+				"tileType": "CONVEYOR_SINGLE_CW_CURVE",
+				"y": 3,
+				"x": 9,
+				"rotation": "WEST"
+			},
+			{
+				"tileType": "EMPTY",
+				"y": 3,
+				"x": 10
+			},
+			{
+				"tileType": "EMPTY",
+				"y": 3,
+				"x": 11
+			}
+		]
+	]
+}
