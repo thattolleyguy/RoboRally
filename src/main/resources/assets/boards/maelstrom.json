@@ -1,870 +1,878 @@
 
 {
-	"name": "Maelstrom",
-	"width": 12,
-	"height": 12,
-	"board": [
-		[
-			{
-				"tileType": "EMPTY",
-				"y": 0,
-				"x": 0
-			},
-			{
-				"tileType": "CONVEYOR_DOUBLE_STRAIGHT",
-				"y": 0,
-				"x": 1,
-				"rotation": "SOUTH"
-			},
-			{
-				"tileType": "PUSHER_EVEN",
-				"y": 0,
-				"x": 2
-			},
-			{
-				"tileType": "WRENCH_AND_HAMMER",
-				"y": 0,
-				"x": 3
-			},
-			{
-				"tileType": "PUSHER_ODD",
-				"y": 0,
-				"x": 4
-			},
-			{
-				"tileType": "CONVEYOR_DOUBLE_STRAIGHT",
-				"y": 0,
-				"x": 5,
-				"rotation": "SOUTH"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_STRAIGHT",
-				"y": 0,
-				"x": 6,
-				"rotation": "NORTH"
-			},
-			{
-				"tileType": "PUSHER_ODD",
-				"y": 0,
-				"x": 7
-			},
-			{
-				"tileType": "EMPTY",
-				"y": 0,
-				"x": 8
-			},
-			{
-				"tileType": "PUSHER_EVEN",
-				"y": 0,
-				"x": 9
-			},
-			{
-				"tileType": "EMPTY",
-				"y": 0,
-				"x": 10
-			},
-			{
-				"tileType": "WRENCH",
-				"y": 0,
-				"x": 11
-			}
-		],
-		[
-			{
-				"tileType": "EMPTY",
-				"y": 1,
-				"x": 0
-			},
-			{
-				"tileType": "CONVEYOR_DOUBLE_TEE",
-				"y": 1,
-				"x": 1,
-				"rotation": "EAST"
-			},
-			{
-				"tileType": "CONVEYOR_DOUBLE_STRAIGHT",
-				"y": 1,
-				"x": 2,
-				"rotation": "EAST"
-			},
-			{
-				"tileType": "CONVEYOR_DOUBLE_STRAIGHT",
-				"y": 1,
-				"x": 3,
-				"rotation": "EAST"
-			},
-			{
-				"tileType": "CONVEYOR_DOUBLE_STRAIGHT",
-				"y": 1,
-				"x": 4,
-				"rotation": "EAST"
-			},
-			{
-				"tileType": "CONVEYOR_DOUBLE_CCW_TEE",
-				"y": 1,
-				"x": 5,
-				"rotation": "EAST"
-			},
-			{
-				"tileType": "CONVEYOR_DOUBLE_STRAIGHT",
-				"y": 1,
-				"x": 6,
-				"rotation": "EAST"
-			},
-			{
-				"tileType": "CONVEYOR_DOUBLE_STRAIGHT",
-				"y": 1,
-				"x": 7,
-				"rotation": "EAST"
-			},
-			{
-				"tileType": "CONVEYOR_DOUBLE_STRAIGHT",
-				"y": 1,
-				"x": 8,
-				"rotation": "EAST"
-			},
-			{
-				"tileType": "CONVEYOR_DOUBLE_CW_CURVE",
-				"y": 1,
-				"x": 9,
-				"rotation": "SOUTH"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_CCW_CURVE",
-				"y": 1,
-				"x": 10,
-				"rotation": "SOUTH"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_STRAIGHT",
-				"y": 1,
-				"x": 11,
-				"rotation": "WEST"
-			}
-		],
-		[
-			{
-				"tileType": "PUSHER_EVEN",
-				"y": 2,
-				"x": 0,
-				"rotation": "WEST"
-			},
-			{
-				"tileType": "CONVEYOR_DOUBLE_STRAIGHT",
-				"y": 2,
-				"x": 1,
-				"rotation": "NORTH"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_CW_CURVE",
-				"y": 2,
-				"x": 2,
-				"rotation": "EAST"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_STRAIGHT",
-				"y": 2,
-				"x": 3,
-				"rotation": "EAST"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_STRAIGHT",
-				"y": 2,
-				"x": 4,
-				"rotation": "EAST"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_STRAIGHT",
-				"y": 2,
-				"x": 5,
-				"rotation": "EAST"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_STRAIGHT",
-				"y": 2,
-				"x": 6,
-				"rotation": "EAST"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_STRAIGHT",
-				"y": 2,
-				"x": 7,
-				"rotation": "EAST"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_CW_CURVE",
-				"y": 2,
-				"x": 8,
-				"rotation": "SOUTH"
-			},
-			{
-				"tileType": "CONVEYOR_DOUBLE_STRAIGHT",
-				"y": 2,
-				"x": 9,
-				"rotation": "SOUTH"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_STRAIGHT",
-				"y": 2,
-				"x": 10,
-				"rotation": "SOUTH"
-			},
-			{
-				"tileType": "PUSHER_EVEN",
-				"y": 2,
-				"x": 11,
-				"rotation": "EAST"
-			}
-		],
-		[
-			{
-				"tileType": "EMPTY",
-				"y": 3,
-				"x": 0
-			},
-			{
-				"tileType": "CONVEYOR_DOUBLE_STRAIGHT",
-				"y": 3,
-				"x": 1,
-				"rotation": "NORTH"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_STRAIGHT",
-				"y": 3,
-				"x": 2,
-				"rotation": "NORTH"
-			},
-			{
-				"tileType": "CONVEYOR_DOUBLE_CW_CURVE",
-				"y": 3,
-				"x": 3,
-				"rotation": "EAST"
-			},
-			{
-				"tileType": "CONVEYOR_DOUBLE_STRAIGHT",
-				"y": 3,
-				"x": 4,
-				"rotation": "EAST"
-			},
-			{
-				"tileType": "CONVEYOR_DOUBLE_STRAIGHT",
-				"y": 3,
-				"x": 5,
-				"rotation": "EAST"
-			},
-			{
-				"tileType": "CONVEYOR_DOUBLE_STRAIGHT",
-				"y": 3,
-				"x": 6,
-				"rotation": "EAST"
-			},
-			{
-				"tileType": "CONVEYOR_DOUBLE_CW_CURVE",
-				"y": 3,
-				"x": 7,
-				"rotation": "SOUTH"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_STRAIGHT",
-				"y": 3,
-				"x": 8,
-				"rotation": "SOUTH"
-			},
-			{
-				"tileType": "CONVEYOR_DOUBLE_STRAIGHT",
-				"y": 3,
-				"x": 9,
-				"rotation": "SOUTH"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_STRAIGHT",
-				"y": 3,
-				"x": 10,
-				"rotation": "SOUTH"
-			},
-			{
-				"tileType": "EMPTY",
-				"y": 3,
-				"x": 11
-			}
-		],
-		[
-			{
-				"tileType": "PUSHER_ODD",
-				"y": 4,
-				"x": 0,
-				"rotation": "WEST"
-			},
-			{
-				"tileType": "CONVEYOR_DOUBLE_STRAIGHT",
-				"y": 4,
-				"x": 1,
-				"rotation": "NORTH"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_STRAIGHT",
-				"y": 4,
-				"x": 2,
-				"rotation": "NORTH"
-			},
-			{
-				"tileType": "CONVEYOR_DOUBLE_STRAIGHT",
-				"y": 4,
-				"x": 3,
-				"rotation": "NORTH"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_CW_CURVE",
-				"y": 4,
-				"x": 4,
-				"rotation": "EAST"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_STRAIGHT",
-				"y": 4,
-				"x": 5,
-				"rotation": "EAST"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_CW_CURVE",
-				"y": 4,
-				"x": 6,
-				"rotation": "SOUTH"
-			},
-			{
-				"tileType": "CONVEYOR_DOUBLE_STRAIGHT",
-				"y": 4,
-				"x": 7,
-				"rotation": "SOUTH"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_STRAIGHT",
-				"y": 4,
-				"x": 8,
-				"rotation": "SOUTH"
-			},
-			{
-				"tileType": "CONVEYOR_DOUBLE_STRAIGHT",
-				"y": 4,
-				"x": 9,
-				"rotation": "SOUTH"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_STRAIGHT",
-				"y": 4,
-				"x": 10,
-				"rotation": "SOUTH"
-			},
-			{
-				"tileType": "PUSHER_ODD",
-				"y": 4,
-				"x": 11,
-				"rotation": "EAST"
-			}
-		],
-		[
-			{
-				"tileType": "EMPTY",
-				"y": 5,
-				"x": 0
-			},
-			{
-				"tileType": "CONVEYOR_DOUBLE_STRAIGHT",
-				"y": 5,
-				"x": 1,
-				"rotation": "NORTH"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_STRAIGHT",
-				"y": 5,
-				"x": 2,
-				"rotation": "NORTH"
-			},
-			{
-				"tileType": "CONVEYOR_DOUBLE_STRAIGHT",
-				"y": 5,
-				"x": 3,
-				"rotation": "NORTH"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_STRAIGHT",
-				"y": 5,
-				"x": 4,
-				"rotation": "NORTH"
-			},
-			{
-				"tileType": "PIT",
-				"y": 5,
-				"x": 5
-			},
-			{
-				"tileType": "PIT",
-				"y": 5,
-				"x": 6
-			},
-			{
-				"tileType": "CONVEYOR_DOUBLE_STRAIGHT",
-				"y": 5,
-				"x": 7,
-				"rotation": "SOUTH"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_STRAIGHT",
-				"y": 5,
-				"x": 8,
-				"rotation": "SOUTH"
-			},
-			{
-				"tileType": "CONVEYOR_DOUBLE_STRAIGHT",
-				"y": 5,
-				"x": 9,
-				"rotation": "SOUTH"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_CCW_TEE",
-				"y": 5,
-				"x": 10,
-				"rotation": "SOUTH"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_STRAIGHT",
-				"y": 5,
-				"x": 11,
-				"rotation": "WEST"
-			}
-		],
-		[
-			{
-				"tileType": "CONVEYOR_DOUBLE_STRAIGHT",
-				"y": 6,
-				"x": 0,
-				"rotation": "EAST"
-			},
-			{
-				"tileType": "CONVEYOR_DOUBLE_CCW_TEE",
-				"y": 6,
-				"x": 1,
-				"rotation": "NORTH"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_STRAIGHT",
-				"y": 6,
-				"x": 2,
-				"rotation": "NORTH"
-			},
-			{
-				"tileType": "CONVEYOR_DOUBLE_STRAIGHT",
-				"y": 6,
-				"x": 3,
-				"rotation": "NORTH"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_STRAIGHT",
-				"y": 6,
-				"x": 4,
-				"rotation": "NORTH"
-			},
-			{
-				"tileType": "PIT",
-				"y": 6,
-				"x": 5
-			},
-			{
-				"tileType": "PIT",
-				"y": 6,
-				"x": 6
-			},
-			{
-				"tileType": "CONVEYOR_DOUBLE_STRAIGHT",
-				"y": 6,
-				"x": 7,
-				"rotation": "SOUTH"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_STRAIGHT",
-				"y": 6,
-				"x": 8,
-				"rotation": "SOUTH"
-			},
-			{
-				"tileType": "CONVEYOR_DOUBLE_STRAIGHT",
-				"y": 6,
-				"x": 9,
-				"rotation": "SOUTH"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_STRAIGHT",
-				"y": 6,
-				"x": 10,
-				"rotation": "SOUTH"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_STRAIGHT",
-				"y": 6,
-				"x": 11,
-				"rotation": "EAST"
-			}
-		],
-		[
-			{
-				"tileType": "PUSHER_ODD",
-				"y": 7,
-				"x": 0,
-				"rotation": "WEST"
-			},
-			{
-				"tileType": "CONVEYOR_DOUBLE_STRAIGHT",
-				"y": 7,
-				"x": 1,
-				"rotation": "NORTH"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_STRAIGHT",
-				"y": 7,
-				"x": 2,
-				"rotation": "NORTH"
-			},
-			{
-				"tileType": "CONVEYOR_DOUBLE_STRAIGHT",
-				"y": 7,
-				"x": 3,
-				"rotation": "NORTH"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_STRAIGHT",
-				"y": 7,
-				"x": 4,
-				"rotation": "NORTH"
-			},
-			{
-				"tileType": "CONVEYOR_DOUBLE_CW_CURVE",
-				"y": 7,
-				"x": 5,
-				"rotation": "NORTH"
-			},
-			{
-				"tileType": "CONVEYOR_DOUBLE_STRAIGHT",
-				"y": 7,
-				"x": 6,
-				"rotation": "WEST"
-			},
-			{
-				"tileType": "CONVEYOR_DOUBLE_CW_CURVE",
-				"y": 7,
-				"x": 7,
-				"rotation": "WEST"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_STRAIGHT",
-				"y": 7,
-				"x": 8,
-				"rotation": "SOUTH"
-			},
-			{
-				"tileType": "CONVEYOR_DOUBLE_STRAIGHT",
-				"y": 7,
-				"x": 9,
-				"rotation": "SOUTH"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_STRAIGHT",
-				"y": 7,
-				"x": 10,
-				"rotation": "SOUTH"
-			},
-			{
-				"tileType": "PUSHER_ODD",
-				"y": 7,
-				"x": 11,
-				"rotation": "EAST"
-			}
-		],
-		[
-			{
-				"tileType": "EMPTY",
-				"y": 8,
-				"x": 0
-			},
-			{
-				"tileType": "CONVEYOR_DOUBLE_STRAIGHT",
-				"y": 8,
-				"x": 1,
-				"rotation": "NORTH"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_STRAIGHT",
-				"y": 8,
-				"x": 2,
-				"rotation": "NORTH"
-			},
-			{
-				"tileType": "CONVEYOR_DOUBLE_STRAIGHT",
-				"y": 8,
-				"x": 3,
-				"rotation": "NORTH"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_CW_CURVE",
-				"y": 8,
-				"x": 4,
-				"rotation": "NORTH"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_STRAIGHT",
-				"y": 8,
-				"x": 5,
-				"rotation": "WEST"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_STRAIGHT",
-				"y": 8,
-				"x": 6,
-				"rotation": "WEST"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_STRAIGHT",
-				"y": 8,
-				"x": 7,
-				"rotation": "WEST"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_CW_CURVE",
-				"y": 8,
-				"x": 8,
-				"rotation": "WEST"
-			},
-			{
-				"tileType": "CONVEYOR_DOUBLE_STRAIGHT",
-				"y": 8,
-				"x": 9,
-				"rotation": "SOUTH"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_STRAIGHT",
-				"y": 8,
-				"x": 10,
-				"rotation": "SOUTH"
-			},
-			{
-				"tileType": "EMPTY",
-				"y": 8,
-				"x": 11
-			}
-		],
-		[
-			{
-				"tileType": "PUSHER_EVEN",
-				"y": 9,
-				"x": 0,
-				"rotation": "WEST"
-			},
-			{
-				"tileType": "CONVEYOR_DOUBLE_STRAIGHT",
-				"y": 9,
-				"x": 1,
-				"rotation": "NORTH"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_STRAIGHT",
-				"y": 9,
-				"x": 2,
-				"rotation": "NORTH"
-			},
-			{
-				"tileType": "CONVEYOR_DOUBLE_CW_CURVE",
-				"y": 9,
-				"x": 3,
-				"rotation": "NORTH"
-			},
-			{
-				"tileType": "CONVEYOR_DOUBLE_STRAIGHT",
-				"y": 9,
-				"x": 4,
-				"rotation": "WEST"
-			},
-			{
-				"tileType": "CONVEYOR_DOUBLE_STRAIGHT",
-				"y": 9,
-				"x": 5,
-				"rotation": "WEST"
-			},
-			{
-				"tileType": "CONVEYOR_DOUBLE_STRAIGHT",
-				"y": 9,
-				"x": 6,
-				"rotation": "WEST"
-			},
-			{
-				"tileType": "CONVEYOR_DOUBLE_STRAIGHT",
-				"y": 9,
-				"x": 7,
-				"rotation": "WEST"
-			},
-			{
-				"tileType": "CONVEYOR_DOUBLE_STRAIGHT",
-				"y": 9,
-				"x": 8,
-				"rotation": "WEST"
-			},
-			{
-				"tileType": "CONVEYOR_DOUBLE_CW_CURVE",
-				"y": 9,
-				"x": 9,
-				"rotation": "WEST"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_STRAIGHT",
-				"y": 9,
-				"x": 10,
-				"rotation": "SOUTH"
-			},
-			{
-				"tileType": "PUSHER_EVEN",
-				"y": 9,
-				"x": 11,
-				"rotation": "EAST"
-			}
-		],
-		[
-			{
-				"tileType": "CONVEYOR_DOUBLE_STRAIGHT",
-				"y": 10,
-				"x": 0,
-				"rotation": "EAST"
-			},
-			{
-				"tileType": "CONVEYOR_DOUBLE_CCW_CURVE",
-				"y": 10,
-				"x": 1,
-				"rotation": "NORTH"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_CW_CURVE",
-				"y": 10,
-				"x": 2,
-				"rotation": "NORTH"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_STRAIGHT",
-				"y": 10,
-				"x": 3,
-				"rotation": "WEST"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_STRAIGHT",
-				"y": 10,
-				"x": 4,
-				"rotation": "WEST"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_STRAIGHT",
-				"y": 10,
-				"x": 5,
-				"rotation": "WEST"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_CCW_TEE",
-				"y": 10,
-				"x": 6,
-				"rotation": "WEST"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_STRAIGHT",
-				"y": 10,
-				"x": 7,
-				"rotation": "WEST"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_STRAIGHT",
-				"y": 10,
-				"x": 8,
-				"rotation": "WEST"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_STRAIGHT",
-				"y": 10,
-				"x": 9,
-				"rotation": "WEST"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_TEE",
-				"y": 10,
-				"x": 10,
-				"rotation": "WEST"
-			},
-			{
-				"tileType": "EMPTY",
-				"y": 10,
-				"x": 11
-			}
-		],
-		[
-			{
-				"tileType": "WRENCH",
-				"y": 11,
-				"x": 0
-			},
-			{
-				"tileType": "EMPTY",
-				"y": 11,
-				"x": 1
-			},
-			{
-				"tileType": "PUSHER_EVEN",
-				"y": 11,
-				"x": 2,
-				"rotation": "SOUTH"
-			},
-			{
-				"tileType": "EMPTY",
-				"y": 11,
-				"x": 3
-			},
-			{
-				"tileType": "PUSHER_ODD",
-				"y": 11,
-				"x": 4,
-				"rotation": "SOUTH"
-			},
-			{
-				"tileType": "EMPTY",
-				"y": 11,
-				"x": 5
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_STRAIGHT",
-				"y": 11,
-				"x": 6,
-				"rotation": "NORTH"
-			},
-			{
-				"tileType": "PUSHER_ODD",
-				"y": 11,
-				"x": 7,
-				"rotation": "SOUTH"
-			},
-			{
-				"tileType": "WRENCH_AND_HAMMER",
-				"y": 11,
-				"x": 8
-			},
-			{
-				"tileType": "PUSHER_EVEN",
-				"y": 11,
-				"x": 9,
-				"rotation": "SOUTH"
-			},
-			{
-				"tileType": "CONVEYOR_SINGLE_STRAIGHT",
-				"y": 11,
-				"x": 10,
-				"rotation": "NORTH"
-			},
-			{
-				"tileType": "EMPTY",
-				"y": 11,
-				"x": 11
-			}
-		]
-	]
+    "name": "Maelstrom",
+    "width": 12,
+    "height": 12,
+    "board": [
+        [
+            {
+                "tileType": "EMPTY",
+                "y": 0,
+                "x": 0
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
+                "y": 0,
+                "x": 1,
+                "rotation": "SOUTH"
+            },
+            {
+                "tileType": "PUSHER_EVEN",
+                "y": 0,
+                "x": 2
+            },
+            {
+                "tileType": "WRENCH_AND_HAMMER",
+                "y": 0,
+                "x": 3
+            },
+            {
+                "tileType": "PUSHER_ODD",
+                "y": 0,
+                "x": 4
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
+                "y": 0,
+                "x": 5,
+                "rotation": "SOUTH"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_STRAIGHT",
+                "y": 0,
+                "x": 6,
+                "rotation": "NORTH"
+            },
+            {
+                "tileType": "PUSHER_ODD",
+                "y": 0,
+                "x": 7
+            },
+            {
+                "tileType": "EMPTY",
+                "y": 0,
+                "x": 8
+            },
+            {
+                "tileType": "PUSHER_EVEN",
+                "y": 0,
+                "x": 9
+            },
+            {
+                "tileType": "EMPTY",
+                "y": 0,
+                "x": 10
+            },
+            {
+                "tileType": "WRENCH",
+                "y": 0,
+                "x": 11
+            }
+        ],
+        [
+            {
+                "tileType": "EMPTY",
+                "y": 1,
+                "x": 0
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE_TEE",
+                "y": 1,
+                "x": 1,
+                "rotation": "EAST"
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
+                "y": 1,
+                "x": 2,
+                "rotation": "EAST"
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
+                "y": 1,
+                "x": 3,
+                "rotation": "EAST"
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
+                "y": 1,
+                "x": 4,
+                "rotation": "EAST"
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE_CCW_TEE",
+                "y": 1,
+                "x": 5,
+                "rotation": "EAST"
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
+                "y": 1,
+                "x": 6,
+                "rotation": "EAST"
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
+                "y": 1,
+                "x": 7,
+                "rotation": "EAST"
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
+                "y": 1,
+                "x": 8,
+                "rotation": "EAST"
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE_CW_CURVE",
+                "y": 1,
+                "x": 9,
+                "rotation": "SOUTH"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_CCW_CURVE",
+                "y": 1,
+                "x": 10,
+                "rotation": "SOUTH"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_STRAIGHT",
+                "y": 1,
+                "x": 11,
+                "rotation": "WEST"
+            }
+        ],
+        [
+            {
+                "tileType": "PUSHER_EVEN",
+                "y": 2,
+                "x": 0,
+                "rotation": "WEST"
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
+                "y": 2,
+                "x": 1,
+                "rotation": "NORTH"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_CW_CURVE",
+                "y": 2,
+                "x": 2,
+                "rotation": "EAST"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_STRAIGHT",
+                "y": 2,
+                "x": 3,
+                "rotation": "EAST"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_STRAIGHT",
+                "y": 2,
+                "x": 4,
+                "rotation": "EAST"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_STRAIGHT",
+                "y": 2,
+                "x": 5,
+                "rotation": "EAST"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_STRAIGHT",
+                "y": 2,
+                "x": 6,
+                "rotation": "EAST"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_STRAIGHT",
+                "y": 2,
+                "x": 7,
+                "rotation": "EAST"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_CW_CURVE",
+                "y": 2,
+                "x": 8,
+                "rotation": "SOUTH"
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
+                "y": 2,
+                "x": 9,
+                "rotation": "SOUTH"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_STRAIGHT",
+                "y": 2,
+                "x": 10,
+                "rotation": "SOUTH"
+            },
+            {
+                "tileType": "PUSHER_EVEN",
+                "y": 2,
+                "x": 11,
+                "rotation": "EAST"
+            }
+        ],
+        [
+            {
+                "tileType": "EMPTY",
+                "y": 3,
+                "x": 0
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
+                "y": 3,
+                "x": 1,
+                "rotation": "NORTH"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_STRAIGHT",
+                "y": 3,
+                "x": 2,
+                "rotation": "NORTH"
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE_CW_CURVE",
+                "y": 3,
+                "x": 3,
+                "rotation": "EAST"
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
+                "y": 3,
+                "x": 4,
+                "rotation": "EAST"
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
+                "y": 3,
+                "x": 5,
+                "rotation": "EAST",
+                "northEdge": "LASER_WALL_SINGLE"
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
+                "y": 3,
+                "x": 6,
+                "rotation": "EAST"
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE_CW_CURVE",
+                "y": 3,
+                "x": 7,
+                "rotation": "SOUTH"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_STRAIGHT",
+                "y": 3,
+                "x": 8,
+                "rotation": "SOUTH"
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
+                "y": 3,
+                "x": 9,
+                "rotation": "SOUTH"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_STRAIGHT",
+                "y": 3,
+                "x": 10,
+                "rotation": "SOUTH"
+            },
+            {
+                "tileType": "EMPTY",
+                "y": 3,
+                "x": 11
+            }
+        ],
+        [
+            {
+                "tileType": "PUSHER_ODD",
+                "y": 4,
+                "x": 0,
+                "rotation": "WEST"
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
+                "y": 4,
+                "x": 1,
+                "rotation": "NORTH"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_STRAIGHT",
+                "y": 4,
+                "x": 2,
+                "rotation": "NORTH"
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
+                "y": 4,
+                "x": 3,
+                "rotation": "NORTH"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_CW_CURVE",
+                "y": 4,
+                "x": 4,
+                "rotation": "EAST"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_STRAIGHT",
+                "y": 4,
+                "x": 5,
+                "rotation": "EAST"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_CW_CURVE",
+                "y": 4,
+                "x": 6,
+                "rotation": "SOUTH",
+                "northEdge": "LASER_WALL_SINGLE"
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
+                "y": 4,
+                "x": 7,
+                "rotation": "SOUTH"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_STRAIGHT",
+                "y": 4,
+                "x": 8,
+                "rotation": "SOUTH"
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
+                "y": 4,
+                "x": 9,
+                "rotation": "SOUTH"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_STRAIGHT",
+                "y": 4,
+                "x": 10,
+                "rotation": "SOUTH"
+            },
+            {
+                "tileType": "PUSHER_ODD",
+                "y": 4,
+                "x": 11,
+                "rotation": "EAST"
+            }
+        ],
+        [
+            {
+                "tileType": "EMPTY",
+                "y": 5,
+                "x": 0
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
+                "y": 5,
+                "x": 1,
+                "rotation": "NORTH"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_STRAIGHT",
+                "y": 5,
+                "x": 2,
+                "rotation": "NORTH"
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
+                "y": 5,
+                "x": 3,
+                "rotation": "NORTH"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_STRAIGHT",
+                "y": 5,
+                "x": 4,
+                "rotation": "NORTH",
+                "westEdge": "LASER_WALL_SINGLE"
+            },
+            {
+                "tileType": "PIT",
+                "y": 5,
+                "x": 5
+            },
+            {
+                "tileType": "PIT",
+                "y": 5,
+                "x": 6
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
+                "y": 5,
+                "x": 7,
+                "rotation": "SOUTH"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_STRAIGHT",
+                "y": 5,
+                "x": 8,
+                "rotation": "SOUTH",
+                "eastEdge": "WALL"
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
+                "y": 5,
+                "x": 9,
+                "rotation": "SOUTH"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_CCW_TEE",
+                "y": 5,
+                "x": 10,
+                "rotation": "SOUTH"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_STRAIGHT",
+                "y": 5,
+                "x": 11,
+                "rotation": "WEST"
+            }
+        ],
+        [
+            {
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
+                "y": 6,
+                "x": 0,
+                "rotation": "EAST"
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE_CCW_TEE",
+                "y": 6,
+                "x": 1,
+                "rotation": "NORTH"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_STRAIGHT",
+                "y": 6,
+                "x": 2,
+                "rotation": "NORTH"
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
+                "y": 6,
+                "x": 3,
+                "rotation": "NORTH",
+                "westEdge": "LASER_WALL_SINGLE"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_STRAIGHT",
+                "y": 6,
+                "x": 4,
+                "rotation": "NORTH"
+            },
+            {
+                "tileType": "PIT",
+                "y": 6,
+                "x": 5
+            },
+            {
+                "tileType": "PIT",
+                "y": 6,
+                "x": 6
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
+                "y": 6,
+                "x": 7,
+                "rotation": "SOUTH",
+                "eastEdge": "WALL"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_STRAIGHT",
+                "y": 6,
+                "x": 8,
+                "rotation": "SOUTH"
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
+                "y": 6,
+                "x": 9,
+                "rotation": "SOUTH"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_STRAIGHT",
+                "y": 6,
+                "x": 10,
+                "rotation": "SOUTH"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_STRAIGHT",
+                "y": 6,
+                "x": 11,
+                "rotation": "EAST"
+            }
+        ],
+        [
+            {
+                "tileType": "PUSHER_ODD",
+                "y": 7,
+                "x": 0,
+                "rotation": "WEST"
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
+                "y": 7,
+                "x": 1,
+                "rotation": "NORTH"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_STRAIGHT",
+                "y": 7,
+                "x": 2,
+                "rotation": "NORTH"
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
+                "y": 7,
+                "x": 3,
+                "rotation": "NORTH"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_STRAIGHT",
+                "y": 7,
+                "x": 4,
+                "rotation": "NORTH"
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE_CW_CURVE",
+                "y": 7,
+                "x": 5,
+                "rotation": "NORTH",
+                "southEdge": "WALL"
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
+                "y": 7,
+                "x": 6,
+                "rotation": "WEST"
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE_CW_CURVE",
+                "y": 7,
+                "x": 7,
+                "rotation": "WEST"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_STRAIGHT",
+                "y": 7,
+                "x": 8,
+                "rotation": "SOUTH"
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
+                "y": 7,
+                "x": 9,
+                "rotation": "SOUTH"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_STRAIGHT",
+                "y": 7,
+                "x": 10,
+                "rotation": "SOUTH"
+            },
+            {
+                "tileType": "PUSHER_ODD",
+                "y": 7,
+                "x": 11,
+                "rotation": "EAST"
+            }
+        ],
+        [
+            {
+                "tileType": "EMPTY",
+                "y": 8,
+                "x": 0
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
+                "y": 8,
+                "x": 1,
+                "rotation": "NORTH"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_STRAIGHT",
+                "y": 8,
+                "x": 2,
+                "rotation": "NORTH"
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
+                "y": 8,
+                "x": 3,
+                "rotation": "NORTH"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_CW_CURVE",
+                "y": 8,
+                "x": 4,
+                "rotation": "NORTH"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_STRAIGHT",
+                "y": 8,
+                "x": 5,
+                "rotation": "WEST"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_STRAIGHT",
+                "y": 8,
+                "x": 6,
+                "rotation": "WEST",
+                "southEdge": "WALL"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_STRAIGHT",
+                "y": 8,
+                "x": 7,
+                "rotation": "WEST"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_CW_CURVE",
+                "y": 8,
+                "x": 8,
+                "rotation": "WEST"
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
+                "y": 8,
+                "x": 9,
+                "rotation": "SOUTH"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_STRAIGHT",
+                "y": 8,
+                "x": 10,
+                "rotation": "SOUTH"
+            },
+            {
+                "tileType": "EMPTY",
+                "y": 8,
+                "x": 11
+            }
+        ],
+        [
+            {
+                "tileType": "PUSHER_EVEN",
+                "y": 9,
+                "x": 0,
+                "rotation": "WEST"
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
+                "y": 9,
+                "x": 1,
+                "rotation": "NORTH"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_STRAIGHT",
+                "y": 9,
+                "x": 2,
+                "rotation": "NORTH"
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE_CW_CURVE",
+                "y": 9,
+                "x": 3,
+                "rotation": "NORTH"
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
+                "y": 9,
+                "x": 4,
+                "rotation": "WEST"
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
+                "y": 9,
+                "x": 5,
+                "rotation": "WEST"
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
+                "y": 9,
+                "x": 6,
+                "rotation": "WEST"
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
+                "y": 9,
+                "x": 7,
+                "rotation": "WEST"
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
+                "y": 9,
+                "x": 8,
+                "rotation": "WEST"
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE_CW_CURVE",
+                "y": 9,
+                "x": 9,
+                "rotation": "WEST"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_STRAIGHT",
+                "y": 9,
+                "x": 10,
+                "rotation": "SOUTH"
+            },
+            {
+                "tileType": "PUSHER_EVEN",
+                "y": 9,
+                "x": 11,
+                "rotation": "EAST"
+            }
+        ],
+        [
+            {
+                "tileType": "CONVEYOR_DOUBLE_STRAIGHT",
+                "y": 10,
+                "x": 0,
+                "rotation": "EAST"
+            },
+            {
+                "tileType": "CONVEYOR_DOUBLE_CCW_CURVE",
+                "y": 10,
+                "x": 1,
+                "rotation": "NORTH"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_CW_CURVE",
+                "y": 10,
+                "x": 2,
+                "rotation": "NORTH"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_STRAIGHT",
+                "y": 10,
+                "x": 3,
+                "rotation": "WEST"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_STRAIGHT",
+                "y": 10,
+                "x": 4,
+                "rotation": "WEST"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_STRAIGHT",
+                "y": 10,
+                "x": 5,
+                "rotation": "WEST"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_CCW_TEE",
+                "y": 10,
+                "x": 6,
+                "rotation": "WEST"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_STRAIGHT",
+                "y": 10,
+                "x": 7,
+                "rotation": "WEST"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_STRAIGHT",
+                "y": 10,
+                "x": 8,
+                "rotation": "WEST"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_STRAIGHT",
+                "y": 10,
+                "x": 9,
+                "rotation": "WEST"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_TEE",
+                "y": 10,
+                "x": 10,
+                "rotation": "WEST"
+            },
+            {
+                "tileType": "EMPTY",
+                "y": 10,
+                "x": 11
+            }
+        ],
+        [
+            {
+                "tileType": "WRENCH",
+                "y": 11,
+                "x": 0
+            },
+            {
+                "tileType": "EMPTY",
+                "y": 11,
+                "x": 1
+            },
+            {
+                "tileType": "PUSHER_EVEN",
+                "y": 11,
+                "x": 2,
+                "rotation": "SOUTH"
+            },
+            {
+                "tileType": "EMPTY",
+                "y": 11,
+                "x": 3
+            },
+            {
+                "tileType": "PUSHER_ODD",
+                "y": 11,
+                "x": 4,
+                "rotation": "SOUTH"
+            },
+            {
+                "tileType": "EMPTY",
+                "y": 11,
+                "x": 5
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_STRAIGHT",
+                "y": 11,
+                "x": 6,
+                "rotation": "NORTH"
+            },
+            {
+                "tileType": "PUSHER_ODD",
+                "y": 11,
+                "x": 7,
+                "rotation": "SOUTH"
+            },
+            {
+                "tileType": "WRENCH_AND_HAMMER",
+                "y": 11,
+                "x": 8
+            },
+            {
+                "tileType": "PUSHER_EVEN",
+                "y": 11,
+                "x": 9,
+                "rotation": "SOUTH"
+            },
+            {
+                "tileType": "CONVEYOR_SINGLE_STRAIGHT",
+                "y": 11,
+                "x": 10,
+                "rotation": "NORTH"
+            },
+            {
+                "tileType": "EMPTY",
+                "y": 11,
+                "x": 11
+            }
+        ]
+    ]
 }
