@@ -20,6 +20,9 @@ public class Game
 	private final String name;
 	private final UUID id;
 	private final BoardConfiguration configuration;
+    List<Player> players;
+    int currentRound = 0;
+    
 
 	public Game(@JsonProperty("name") String name, @JsonProperty("id") UUID id, int width, int height) throws IOException
 	{
