@@ -31,11 +31,15 @@ public class GameManager
         return gameMap.values();
     }
 
-    public UUID createGame(String name)
+    public UUID createGame(Map<String, Object> gameSettings)
     {
         UUID gameId = UUID.randomUUID();
         try {
-            gameMap.put(gameId, new Game(name, gameId, 12, 16));
+            //        configuration = BoardConfiguration.randomConfiguration(name, width, height);
+            Map<String,Object> boardMap = (Map<String,Object>) gameSettings.get("board");
+
+            BoardConfiguration board = BoardConfiguration.fromBoardMap(boardMap);
+            gameMap.put(gameId, new Game((String) gameSettings.get("name"), gameId, board));
         }
         catch (IOException ex) {
             Logger.getLogger(GameManager.class.getName()).log(Level.SEVERE, null, ex);

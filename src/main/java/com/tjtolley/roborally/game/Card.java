@@ -38,6 +38,8 @@ public class Card
     }
     public final CardType cardType;
     public final int priority;
+    
+    public static final int NUMBER_OF_CARDS=84;
 
     public Card(CardType cardType, int priority)
     {

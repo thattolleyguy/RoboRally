@@ -17,43 +17,33 @@ import java.util.UUID;
 public class Game
 {
 
-	private final String name;
-	private final UUID id;
-	private final BoardConfiguration configuration;
+    private final String name;
+    private final UUID id;
+    private final BoardConfiguration configuration;
     List<Player> players;
     int currentRound = 0;
-    
 
-	public Game(@JsonProperty("name") String name, @JsonProperty("id") UUID id, int width, int height) throws IOException
-	{
-		this.name = name;
-		this.id = id;
-//        configuration = BoardConfiguration.randomConfiguration(name, width, height);
-		BoardConfiguration tempBoard = null;
-		try
-		{
-			tempBoard = BoardConfiguration.fromSavedBoard(name);
-		}
-		catch (Exception ex)
-		{
-			tempBoard = BoardConfiguration.randomConfiguration(name, width, height);
-		}
-		configuration = tempBoard;
-	}
+    public Game(String name, UUID id,
+                BoardConfiguration board) throws IOException
+    {
+        this.name = name;
+        this.id = id;
+        configuration = board;
+    }
 
-	public String getName()
-	{
-		return name;
-	}
+    public String getName()
+    {
+        return name;
+    }
 
-	public UUID getId()
-	{
-		return id;
-	}
+    public UUID getId()
+    {
+        return id;
+    }
 
-	public List<List<Tile>> getBoard()
-	{
-		return configuration.getBoard();
-	}
+    public List<List<Tile>> getBoard()
+    {
+        return configuration.getBoard();
+    }
 
 }
