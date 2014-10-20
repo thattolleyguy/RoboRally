@@ -3,7 +3,7 @@ package com.tjtolley.roborally.resources;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.inject.Inject;
-import com.tjtolley.roborally.game.BoardConfiguration;
+import com.tjtolley.roborally.game.BoardDefinition;
 import java.io.IOException;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -35,7 +35,7 @@ public class BoardResource
 	{
 		try
 		{
-			BoardConfiguration configuration = BoardConfiguration.fromSavedBoard(boardName);
+			BoardDefinition configuration = BoardDefinition.fromSavedBoard(boardName);
 			return Response.ok(mapper.writeValueAsString(configuration)).build();
 		}
 		catch (JsonProcessingException ex)

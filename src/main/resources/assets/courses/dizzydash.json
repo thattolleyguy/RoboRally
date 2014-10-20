@@ -1,0 +1,17 @@
+{
+    name:'dizzydash',
+    placedBoards:[{
+        boardStartOffset:{
+            x:0,
+            y:0
+        },
+        boardDefinition:{
+            
+        }
+    },
+    {
+        
+    }],
+    startingPlaces:[],
+    flags:[]
+}

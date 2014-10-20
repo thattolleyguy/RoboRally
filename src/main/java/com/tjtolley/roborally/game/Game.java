@@ -19,16 +19,15 @@ public class Game
 
     private final String name;
     private final UUID id;
-    private final BoardConfiguration configuration;
+    private final Course course;
     List<Player> players;
     int currentRound = 0;
 
-    public Game(String name, UUID id,
-                BoardConfiguration board) throws IOException
+    public Game(String name, UUID id, Course course) throws IOException
     {
         this.name = name;
         this.id = id;
-        configuration = board;
+        this.course = course;
     }
 
     public String getName()
@@ -39,11 +38,6 @@ public class Game
     public UUID getId()
     {
         return id;
-    }
-
-    public List<List<Tile>> getBoard()
-    {
-        return configuration.getBoard();
     }
 
 }

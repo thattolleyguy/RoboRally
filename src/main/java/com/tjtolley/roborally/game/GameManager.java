@@ -36,10 +36,9 @@ public class GameManager
         UUID gameId = UUID.randomUUID();
         try {
             //        configuration = BoardConfiguration.randomConfiguration(name, width, height);
-            Map<String,Object> boardMap = (Map<String,Object>) gameSettings.get("board");
-
-            BoardConfiguration board = BoardConfiguration.fromBoardMap(boardMap);
-            gameMap.put(gameId, new Game((String) gameSettings.get("name"), gameId, board));
+            Map<String, Object> courseMap = (Map<String, Object>) gameSettings.get("course");
+            Course course = Course.fromCourseMap(courseMap);
+            gameMap.put(gameId, new Game((String) gameSettings.get("name"), gameId, course));
         }
         catch (IOException ex) {
             Logger.getLogger(GameManager.class.getName()).log(Level.SEVERE, null, ex);

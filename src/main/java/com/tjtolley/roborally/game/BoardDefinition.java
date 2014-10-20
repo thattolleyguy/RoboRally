@@ -21,23 +21,23 @@ import java.util.Random;
  *
  * @author tyler
  */
-public class BoardConfiguration
+public class BoardDefinition
 {
 
     private final String name;
-    private final List<List<Tile>> board;
+    private final List<List<Tile>> tiles;
     private final int width;
     private final int height;
 
-    public BoardConfiguration(@JsonProperty("name") String name, @JsonProperty("board") List<List<Tile>> board, @JsonProperty("width") int width, @JsonProperty("height") int height)
+    public BoardDefinition(@JsonProperty("name") String name, @JsonProperty("tiles") List<List<Tile>> tiles, @JsonProperty("width") int width, @JsonProperty("height") int height)
     {
         this.name = name;
-        this.board = board;
+        this.tiles = tiles;
         this.width = width;
         this.height = height;
     }
 
-    public static BoardConfiguration randomConfiguration(String name, int height, int width)
+    public static BoardDefinition randomConfiguration(String name, int height, int width)
     {
         Random r = new Random();
         List<List<Tile>> board = Lists.newArrayList();
@@ -52,10 +52,10 @@ public class BoardConfiguration
                 column.add(y, new Tile(values[valIdx], x, y, dirValues[dirIdx], EdgeType.EMPTY, EdgeType.EMPTY, EdgeType.EMPTY, EdgeType.EMPTY));
             }
         }
-        return new BoardConfiguration(name, board, width, height);
+        return new BoardDefinition(name, board, width, height);
     }
 
-    public static BoardConfiguration fromSavedBoard(String boardName)
+    public static BoardDefinition fromSavedBoard(String boardName)
     {
         try {
             ObjectMapper mapper = new ObjectMapper();
@@ -84,14 +84,14 @@ public class BoardConfiguration
                     column.add(y, new Tile(Tile.TileType.valueOf((String) tileMap.get("tileType")), x, y, direction, northEdge, southEdge, eastEdge, westEdge));
                 }
             }
-            return new BoardConfiguration((String) readValue.get("name"), board, width, height);
+            return new BoardDefinition((String) readValue.get("name"), board, width, height);
         }
         catch (IOException ex) {
             throw new IllegalStateException("Unable to parse board", ex);
         }
     }
 
-    public static BoardConfiguration fromBoardMap(Map<String, Object> boardMap)
+    public static BoardDefinition fromBoardMap(Map<String, Object> boardMap)
     {
         String boardType = (String) boardMap.get("boardType");
         switch (boardType) {
@@ -103,14 +103,13 @@ public class BoardConfiguration
                 return null;
             case "random":
             default:
-                return BoardConfiguration.randomConfiguration("custom", (Integer) boardMap.get("height"), (Integer) boardMap.get("width"));
+                return BoardDefinition.randomConfiguration("custom", (Integer) boardMap.get("height"), (Integer) boardMap.get("width"));
         }
     }
 
-//	public static List<String> getSavedBoards
-    public List<List<Tile>> getBoard()
+    public List<List<Tile>> getTiles()
     {
-        return board;
+        return tiles;
     }
 
     public String getName()
