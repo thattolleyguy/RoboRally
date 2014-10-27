@@ -100,7 +100,7 @@ public class BoardDefinition
             case "custom":
                 return null;
             case "predefined":
-                return null;
+                return fromSavedBoard((String) boardMap.get("name"));
             case "random":
             default:
                 return BoardDefinition.randomConfiguration("custom", (Integer) boardMap.get("height"), (Integer) boardMap.get("width"));

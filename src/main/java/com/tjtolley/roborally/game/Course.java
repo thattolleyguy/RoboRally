@@ -5,6 +5,7 @@
  */
 package com.tjtolley.roborally.game;
 
+import com.google.common.collect.Lists;
 import java.util.List;
 import java.util.Map;
 
@@ -27,7 +28,15 @@ public class Course
 
     public static Course fromCourseMap(Map<String, Object> courseMap)
     {
-        return null;
+        List<Map<String, Object>> placedBoards = (List<Map<String, Object>>) courseMap.get("placedBoards");
+        List<PlacedBoard> boards = Lists.newArrayList();
+        for (Map<String, Object> boardDefinition : placedBoards) {
+            final Map<String, Object> positionOffset = (Map<String, Object>) boardDefinition.get("boardStartOffset");
+            boards.add(new PlacedBoard(
+                    BoardDefinition.fromBoardMap((Map<String, Object>) boardDefinition.get("boardDefinition")),
+                    new Position((Integer) positionOffset.get("x"), (Integer) positionOffset.get("y"))));
+        }
+        return new Course(boards, Lists.<Position>newArrayList(), Lists.<Position>newArrayList());
     }
 
     public static class PlacedBoard
@@ -39,6 +48,16 @@ public class Course
         {
             this.boardDefinition = boardDefinition;
             this.boardStartOffset = boardStartOffset;
+        }
+
+        public BoardDefinition getBoardDefinition()
+        {
+            return boardDefinition;
+        }
+
+        public Position getBoardStartOffset()
+        {
+            return boardStartOffset;
         }
 
     }

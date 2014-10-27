@@ -1,17 +1,30 @@
 {
-    name:'dizzydash',
-    placedBoards:[{
-        boardStartOffset:{
-            x:0,
-            y:0
+    "name": "dizzydash",
+    "placedBoards": [
+        {
+            "boardStartOffset": {
+                "x": 0,
+                "y": 0
+            },
+            "boardDefinition": {
+                "boardType": "predefined",
+                "name": "spinzone"
+            }
         },
-        boardDefinition:{
-            
+        {
+            "boardStartOffset": {
+                "x": 12,
+                "y": 0
+            },
+            "boardDefinition": {
+                "boardType": "predefined",
+                "name": "docking_bay"
+            }
         }
-    },
-    {
-        
-    }],
-    startingPlaces:[],
-    flags:[]
+    ],
+    "startingPlaces": [
+    ],
+    "flags": [
+    ]
 }
+
